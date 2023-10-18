@@ -44,7 +44,8 @@ INSERT INTO `etudiants` (`id`, `Prenom`, `Nom`, `Mail`) VALUES
 (3, 'Yves', 'PAUL', 'yves.paul@isen-ouest.yncrea.fr'),
 (4, 'Laura', 'PERTRON', 'laura.pertron@isen-ouest.yncrea.fr'),
 (5, 'Frédéric', 'BOIREAU', 'frederic.boireau@isen-ouest.yncrea.fr'),
-(7, 'Jonathan', 'NEEDHAM', 'jonathan.needham@isen-ouest.yncrea.fr'),
+(6, 'Yann', 'Queguiner', 'Yann.queguiner@isen-ouest.yncrea.fr'),
+(7, 'Thibaut', 'NEEDHAM', 'jonathan.needham@isen-ouest.yncrea.fr'),
 (8, 'Jérémy', 'LARDIC', 'jeremy.lardic@isen-ouest.yncrea.fr'),
 (9, 'Mickaël', 'RENNARD', 'mickael.rennard@isen-ouest.yncrea.fr'),
 (10, 'Ibrahim', 'MOHAMMAD', 'ibrahim.mohammad@isen-ouest.yncrea.fr'),
@@ -52,8 +53,7 @@ INSERT INTO `etudiants` (`id`, `Prenom`, `Nom`, `Mail`) VALUES
 (12, 'Pierre-Marie', 'GUEVEL', 'pierre-marie.guevel@isen-ouest.yncrea.fr'),
 (13, 'Youenn', 'FEULVARC’H', 'youenn.feulvarc-h@isen-ouest.yncrea.fr'),
 (14, 'Gwendal', 'QUENET', 'gwendal.quenet@isen-ouest.yncrea.fr'),
-(15, 'Alexandre', 'CARAES', 'alexandre.caraes@isen-ouest.yncrea.fr'),
-(16, 'Bastien', 'SUCHY-REINARD', 'bastien.suchy-reinard@isen-ouest.yncrea.fr');
+(15, 'Alexandre', 'CARAES', 'alexandre.caraes@isen-ouest.yncrea.fr');
 
 -- --------------------------------------------------------
 

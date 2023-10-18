@@ -1,12 +1,15 @@
 import mysql.connector as mysql
 
 class Connection :
-    user = "root"
-    password = "example"
-    host = "localhost"
-    port = "3307"
     
     @classmethod
-    def connect_database(cls, database) : 
-        bdd = mysql.connect(user=cls.user, password=cls.password, host=cls.host, port=cls.port, database=database)
+    def connexion(cls,user,password,host,port,database) : 
+        bdd = mysql.connect(user=user, password=password, host=host, port=port, database=database)
         return bdd
+    
+    @classmethod
+    def deconnexion(cls, bdd, cursor) :
+        cursor.fetchall()
+        cursor.close()
+        bdd.close()
+        cursor = None

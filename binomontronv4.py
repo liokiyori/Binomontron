@@ -13,7 +13,7 @@ def connect_database(database) :
 
 #Cette fonction récupère une liste de noms à partir d'une table de base de données appelée etudiants.
 def creation_liste() :
-    database = "binomontron_test"
+    database = "binomontron"
     bdd = connect_database(database)
     cursor = bdd.cursor()
     query ="select * from etudiants;"
@@ -45,7 +45,7 @@ def creation_groupe(nbre) :
     return les_equipes
 
 def recuperation_mail(nom) :
-    database = "binomontron_test"
+    database = "binomontron"
     bdd = connect_database(database)
     cursor = bdd.cursor()
     query ="select * from etudiants where nom = %s;"

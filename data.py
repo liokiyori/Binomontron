@@ -3,7 +3,7 @@ from connection import Connection
 class Data :
     @classmethod
     def creation_liste(cls) :
-        bdd = Connection.connexion("root","example","localhost",3306,"binomontron")
+        bdd = Connection.connexion("root","example","localhost",3307,"binomontron")
         cursor = bdd.cursor()
         query ="select * from etudiants;"
         cursor.execute(query)

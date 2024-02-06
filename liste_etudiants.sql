@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `binomontron_test`
 --
-
+/*CREATE DATABASE IF NOT EXISTS 'binomontron_test'; 
+USE `binomontron_test`; */
 -- --------------------------------------------------------
 
 --

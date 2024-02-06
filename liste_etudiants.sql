@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `binomontron_test`
 --
-
+/*CREATE DATABASE IF NOT EXISTS 'binomontron_test'; 
+USE `binomontron_test`; */
 -- --------------------------------------------------------
 
 --
@@ -40,7 +41,6 @@ CREATE TABLE `etudiants` (
 
 INSERT INTO `etudiants` (`id`, `Prenom`, `Nom`, `Mail`) VALUES
 (1, 'Morgan', 'COULM', 'morgan.coulm@isen-ouest.yncrea.fr'),
-(2, 'Camille', 'ULVOAS', 'camille.ulvoas@isen-ouest.yncrea.fr'),
 (3, 'Yves', 'PAUL', 'yves.paul@isen-ouest.yncrea.fr'),
 (4, 'Laura', 'PERTRON', 'laura.pertron@isen-ouest.yncrea.fr'),
 (5, 'Frédéric', 'BOIREAU', 'frederic.boireau@isen-ouest.yncrea.fr'),

@@ -6,10 +6,12 @@ services:
     container_name: db
     environment:
       - MYSQL_ROOT_PASSWORD=example
+      - MYSQL_DATABASE=binomontron
     ports:
       - 3307:3306
     volumes:
       - ./databases:/var/lib/mysql
+      - ./liste_etudiants.sql:/docker-entrypoint-initdb.d/liste_etudiant.sql
     restart: always
 
   phpmyadmin:
